@@ -20,7 +20,7 @@ const Navbar = () => {
          <ul className={state.clicked?"nav-menu active":"nav-menu"}>
             {MenuItems.map((items,i)=>(
               <li key={i}>
-              <Link to="/" className={items.cName}>
+              <Link to={items.url} className={items.cName}>
              {items.icons}
               {items.title}
               </Link>

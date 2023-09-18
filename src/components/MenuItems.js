@@ -10,20 +10,20 @@ export const MenuItems=[
     },
     {
         title:"About",
-        url:"/",
+        url:"/about",
         cName:"nav-link",
         icons:<AiFillInfoCircle className="icon"/>
     }
     ,
     {
         title:"Service",
-        url:"/",
+        url:"/service",
         cName:"nav-link",
         icons:<BiSolidBriefcase className="icon"/>
     }
     ,{
         title:"Contact",
-        url:"/",
+        url:"/contact",
         cName:"nav-link",
         icons:<PiAddressBookFill className="icon"/>
     }
