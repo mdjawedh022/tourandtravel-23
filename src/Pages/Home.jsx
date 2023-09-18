@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import Hero from '../components/Hero';
 import img1 from "../image/15.jpg"
 import Destination from '../components/Destination';
+import Trip from '../components/Trip';
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
   btncl="showbtn"
   />
   <Destination/>
+  <Trip/>
     </div>
   )
 }
