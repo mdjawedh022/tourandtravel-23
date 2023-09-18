@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/Home.css";
 import Hero from '../components/Hero';
 import img1 from "../image/15.jpg"
+import Destination from '../components/Destination';
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
   url="/"
   btncl="showbtn"
   />
+  <Destination/>
     </div>
   )
 }

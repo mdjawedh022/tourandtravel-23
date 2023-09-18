@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbarItems">
-        <h1 className='navbar-logo'>Tour</h1>
+        <h1 className='navbar-logo'>TripInfo</h1>
         <div className="menu-icons" onClick={handleClick}>
         {state.clicked ? <AiOutlineClose className='i'/>:<GiHamburgerMenu className='i'/>}
         </div>
