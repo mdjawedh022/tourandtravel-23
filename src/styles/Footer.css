@@ -20,6 +20,7 @@ text-decoration: none;
     color: #fff;
     font-size: 2rem;
     margin-left: 1rem;
+    border-radius:20px;
 }
 .top-footer .socailmedia-icons:hover{
     color: #01959a;
